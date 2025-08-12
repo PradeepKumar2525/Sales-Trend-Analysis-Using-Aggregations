@@ -35,4 +35,5 @@ It uses **three table joins** (`blinkit_products`, `blinkit_order_items`, and `b
 
 ###  Calculate MoM Growth
 - **`LAG()`** → Gets previous month’s value for comparison.
-- Growth formula:  
+
+- This project analyzes Blinkit sales data to track monthly revenue and order volume, and calculates month-over-month growth percentages. Using SQL joins, date functions, aggregates, and window functions, it reveals sales trends over time and highlights months with growth or decline.
